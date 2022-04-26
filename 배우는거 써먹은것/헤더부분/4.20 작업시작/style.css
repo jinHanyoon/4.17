@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,665;0,700;1,400;1,700&family=Square+Peg&display=swap');
+
+
+.Header1{
+    width: 100%;
+    height: 100vh; 
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,1.2),rgba(0,0,0,0.2)),url(/볼보.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+}
+.Header1 h1{
+    color: rgb(238, 238, 238);
+    font-size: 50px;
+
+}
+
+
+.Header1 .one{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   color: red;
+   padding-top:30px;
+  
+}
+
+.Header1 .hero ul li{
+    color: aliceblue;
+    display: inline;
+    margin: 0 60px;
+font-size: 20px;
+text-align: center;
+text-shadow: 5px 5px 10px gray;
+}
+
+a {text-decoration: none;
+color:rgb(181, 184, 194);
+text-shadow: 5px 5px 10px gray
+;}
+
+
+.let{
+ width: 1600px;
+ height: 800px;
+ font-size:200px;
+ border:  5px rgba(176, 192, 187, 0.932);
+ margin: 0;
+ color: rgb(184, 202, 218);
+ font-size: 50px;
+ position: absolute;
+ top:49%;
+ left: -3%;
+ text-align: center;
+ padding-top: 4%;
+ padding-right: 0%;
+ font-family:'Square Peg', cursive;
+text-shadow: 5px 5px 10px;
+}
