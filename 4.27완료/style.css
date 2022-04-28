@@ -1,0 +1,106 @@
+*{margin: 0;
+    padding: 0;
+    background-repeat:no-repeat;
+    opacity: 1.4;
+    font-family: 'Roboto Mono', monospace;
+ 
+    
+}
+    
+a{text-decoration: none;
+color: rgba(209, 219, 226, 0.822);} 
+    
+        
+    
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px sold rgba(243, 238, 238, 0.445);
+        height: 85px;
+        padding-bottom: 10px;
+     
+
+             
+    }
+    
+    .logo{
+       display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        font-size: 60px;
+        color: rgba(209, 219, 226, 0.822);
+        position: relative;
+       top:10px;
+        text-shadow: 5px 5px 10px black;            
+    }
+    
+    .logo_text{ padding-left: 12px;
+    color:rgba(209, 219, 226, 0.822);
+font-size: 50px;
+padding-left: 30px;
+    padding-top: 20px;
+text-shadow: 5px 5px 10px black;}
+    
+    .menu{
+        display: flex;
+        padding-right:40px;
+        list-style: none;
+        font-size: 28px;
+  padding-top: 20px;
+  text-decoration:  none;}
+
+
+
+
+    .eee{padding: 16px;
+        color:inherit;
+        text-decoration: none;
+             color: azure;
+             text-shadow: 5px 5px 10px black;
+       
+    }
+    
+
+    
+    .sub{width: 100%;
+    height: 100vh;;
+    text-align: center;
+    justify-items: center;}
+    
+    .sub_text{color: rgba(92, 30, 143, 0.699);
+        position: relative;
+        top: 25%;
+        font-size: 90px;
+        font:bold;
+        text-shadow: 10px 10px 10px rgb(155, 109, 109);
+    
+    }
+    
+    .text2{
+        position: relative;
+        top: 30%;
+        font-size: 60px;
+        color: rgb(231, 222, 235);
+        text-shadow: 5px 5px 5px black;
+    }
+    
+      .tt{
+          position: relative;
+         top:40%;
+         font-size: 40px;
+         color: aliceblue;
+         font:bold;
+        
+      }
+    
+      .tt1{width: 400px;
+    height: 80px;
+    background-color: rgb(10, 2, 22);
+    box-shadow: 5px 5px 10px ;
+    border-radius: 50%;
+    border-radius: 50px;
+    opacity: 0.9;
+color: rgb(238, 231, 231);
+font-size: 25px;
+text-shadow: 5px 10px 10px black;}
