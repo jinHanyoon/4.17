@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/4.27/imd.css">
+</head>
+<body>
+    <div style="overflow: hidden;">
+    <Div class="container">
+    <div class="inner">        
+        <img src="/다운로드.jpg">
+        </div>
+    <div class="inner">
+            <img src="room.jpg">
+        </div>
+    <div class="inner">
+            <img src="/다운로드.jpg">
+        </div>      
+    </Div>
+</div>
+
+
+<button class="bt1">1</button>
+<button class="bt2">2</button>
+<button class="bt3">3</button>
+<script>
+    
+
+     document.querySelector('.bt1').addEventListener('click', function(){
+         document.querySelector('.container').style. transform= 'translate(0vw)';})
+
+         document.querySelector('.bt2').addEventListener('click', function(){
+         document.querySelector('.container').style. transform= 'translate(-100vw)';})
+
+         document.querySelector('.bt3').addEventListener('click', function(){
+         document.querySelector('.container').style. transform= 'translate(-200vw)';})
+</script>
+
+</body>
+</html>
