@@ -8,48 +8,52 @@
 }
     
 a{text-decoration: none;
-color: rgba(209, 219, 226, 0.822);} 
+color: rgb(53, 50, 97);
+z-index: 5;} 
     
         
+ .main_bg{background-image: url(/123.jpg);
+    background-size: cover;
+    z-index: 0;
     
+ }   
     
     .header{
         display: flex;
         justify-content: space-between;
         border-bottom: 1px sold rgba(243, 238, 238, 0.445);
-        height: 85px;
-        padding-bottom: 10px;
-        background-color: rgba(10, 97, 212, 0.836);
-        padding-bottom: 20px;
-     
-
+       height: 1px;
+      
              
     }
-    
     .logo{
-       display: flex;
-        justify-content: center;
-        padding-left: 20px;
-        font-size: 60px;
-        color: rgba(209, 219, 226, 0.822);
-        position: relative;
-       top:10px;
-        text-shadow: 5px 5px 10px black;            
-    }
+        display: flex;
+         justify-content: center;
+         padding-left: 20px;
+         font-size: 30px;
+         color: rgba(209, 219, 226, 0.918);
+         position: relative;
+         padding-top: 15px;
+         text-shadow: 5px 5px 10px black;    
+                
+     }
     
-    .logo_text{ padding-left: 12px;
-    color:rgba(209, 219, 226, 0.822);
-font-size: 50px;
-padding-left: 30px;
-    padding-top: 20px;
-text-shadow: 5px 5px 10px black;}
+    .logo_text{ padding-left: 30px;
+    color:rgba(209, 219, 226, 0.904);
+font-size: 25px;
+z-index: 6;
+   padding-top: 10px;
+text-shadow: 5px 5px 10px black;
+
+}
 .menu{
     display: flex;
     padding-right:40px;
     list-style: none;
-    font-size: 28px;
-padding-top: 20px;
-text-decoration:  none;}
+    font-size: 24px;
+padding-top: 10px;
+text-decoration:  none;
+z-index: 6;}
 
 
 
@@ -57,8 +61,9 @@ text-decoration:  none;}
 .eee{padding: 16px;
     color:inherit;
     text-decoration: none;
-         color: azure;
+         color: rgb(23, 117, 117);
          text-shadow: 5px 5px 10px black;
+         
    
 }
 
@@ -68,17 +73,15 @@ text-decoration:  none;}
     width: 300vw;
     transform: translate(-100vw);
     transition: transform 0.5s;
-    padding-top: 10px;
-  
+    z-index: 0;
  
-   
+
     
 }
 .inner{width: 100vw; 
 float: left;
 text-align: center;
-background-color: rgb(255, 247, 247);
-height: 30vw;
+
 
 }
 
@@ -86,44 +89,56 @@ height: 30vw;
     width: 60vw;
     margin-top: 20px;
     height: 28vw;
-    border: solid 5px rgb(91, 86, 95);        
+    border: solid 5px rgb(91, 86, 95);  
+       
 }
 
 .btm{
     padding-left: 20px;
     display: flex;
     justify-content: center;
-    list-style: none;
+    list-style: none;}
 
 
-   
+.btm_0{background-color:rgba(185, 194, 233, 0.212);
 }
+
+
+
 .btm1{
     padding-left: 30px;
-   
+    display: block;
+    
+     
     
 }
 
-.bt1{ background-color: rgba(10, 97, 212, 0.836);
-width: 50px;
+.bt1{ background-color:  rgb(15, 19, 228);
+width: 70px;
+height: 10px;
 border-radius: 20px 50%;
-color:rgba(10, 97, 212, 0);
+color:rgba(2, 6, 241, 0);
+opacity: 0.7;
 
 
 }
-.bt2{ background-color: rgba(10, 97, 212, 0.836);
+.bt2{ background-color:  rgb(15, 19, 228);
    
-    width: 50px;
+    width: 70px;
+    height: 10px;
     border-radius: 20px 50%;
-    color: rgba(10, 97, 212, 0)}
+    color: rgba(10, 97, 212, 0);
+    opacity: 0.7;}
 
-.bt3 {background-color: rgba(10, 97, 212, 0.836);
-
-width: 50px;
-border-radius: 20px 50%;
-color: rgba(10, 97, 212, 0)}
-
+.bt3 {background-color:   rgb(15, 19, 228);
+    width: 70px;
+    height: 10px;
+    border-radius: 20px 50%;
+color: rgba(10, 97, 212, 0);
+opacity: 0.7;}
 /* 버튼 이미지  */
+
+
 
 
 
@@ -133,7 +148,7 @@ height: 550px;
 display: flex;
 justify-content: space-between;
 padding: 10px;
-margin-top: 10px;
+ 
 background-color: rgba(63, 58, 58, 0.418);
 }
 
@@ -146,15 +161,17 @@ img{
     border: 2px solid black;
     position: relative;
     top:5%;
-background-color: rgba(10, 97, 212, 0.836);
-color: rgb(179, 188, 199);}
+background-image: url(/비행기야야야야.jpg);
+background-size: cover;
+color: rgb(3, 0, 3);}
 
 .s1_1{
         font-size: 50px;
       padding-left: 20px;
         padding-top:30px;
+        color: rgb(241, 240, 240);
    
-text-shadow: 5px 5px 10px black;}
+text-shadow: 5px 5px 10px rgb(6, 47, 100);}
   
 
 .s1i{font-size:  100px ;
@@ -163,7 +180,7 @@ top:0%;
 left: 10%;
 
 }
-.s1i2{color:aliceblue;
+.s1i2{color:rgb(148, 35, 31);
 font-size: 50px;
 position: relative;
 left:20%;
@@ -176,7 +193,10 @@ position:relative;
 left: 35%;
 top:20%;
 border: 2px solid black;
-border-radius: 12px;}
+border-radius: 12px;
+font-size: 40px;
+opacity: 0.6;
+background-color: rgb(247, 247, 247);}
 
 .s1 p{text-align: center;
 position: relative;
@@ -192,19 +212,36 @@ bottom: 15px;}
     border: 2px solid black;
     position: relative;
     top:5%;
-
-    
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px black;
+    background-image: url(/여행지.jpg);
+    background-size: cover;
   }
+.s2_1{padding-top: 30px;
+color: rgb(190, 190, 207);}
   
+.s2_2{color: rgb(216, 194, 194);
+padding-top:80px;}
+
+
+.s2 button{width: 400px;
+    height: 80px;
+    position:relative;
+    top:70px;
+    border: 2px solid black;
+    border-radius: 12px;
+font-size: 40px;
+opacity: 0.6;
+background-color: rgb(192, 195, 201);}
 
 
 .s3{
     width: 800px;
     height: 500px;
-    border: 2px solid black;
+    border: 2px solid rgb(167, 38, 38);
     position: relative;
     top:5%;
 
   }
   
-
